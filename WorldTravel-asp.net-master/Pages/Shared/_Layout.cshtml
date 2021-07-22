@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["title"]-RndWorldCity</title>
+    <link href="~/img/city3.jpg" rel="icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+          integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/style.css">
+    <script src="~/js/site.js"></script>
+    <style>
+        body {
+            background-image: linear-gradient(to right bottom,
+            /*renk efekti ve bu efek nerden nereye değişsin*/
+            rgba(12, 11, 11, 0.7), rgba(250, 250, 250, 0.3)), url("/img/city3.jpg");
+            background-repeat: no-repeat;
+            background-position: top;
+            background-size: auto;
+            background-attachment: fixed;
+        }
+    </style>
+
+</head>
+
+<body id="body">
+    <nav class="navbar navbar-dark navbar-expand-sm">
+        <a href="/Index" class="navbar-brand">
+            <img src="~/img/radio-station (2).png">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsi">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsi">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="/Index" class="nav-link">
+                        RndWorldCity&nbsp<img src="~/img/radio-station.png" style="height: 20px;" class="mb-2">
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/NavbarPages/ShowCity" class="nav-link">ShowCity&nbsp<i class="fas fa-city"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a href="/NavbarPages/sehirDetay" class="nav-link">Add-Update City&nbsp<i class="fas fa-city"></i></a>
+                </li>
+                
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Tasks</a>
+                    <div class="dropdown-menu" style="background-color:rosybrown">
+                        <!-- Hafta 9 projede de kullanmak istediğimiz yapı olduğundan navbarPages içine alındı -->
+                        <!-- Diğer ödevleri navbarPages-tasks altına koyalım -->
+                        <a class="dropdown-item" href="/NavbarPages/SignIn">Week 9</a>
+                        <a class="dropdown-item" href="/NavbarPages/tasks/week10">Week 10</a>
+                        <a class="dropdown-item" href="/NavbarPages/tasks/week11">Week 11</a>
+                        <a class="dropdown-item" href="/NavbarPages/tasks/week11Admin">Week 11/Admin</a>
+                        <a class="dropdown-item" href="#">-</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="/NavbarPages/AboutUs" class="nav-link">AboutUs&nbsp<i class="fas fa-users"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a href="/NavbarPages/Contact" class="nav-link">Contact&nbsp<i class="fas fa-phone-volume"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a href="/NavbarPages/SignIn" class="nav-link">SignIn&nbsp<i class="fas fa-sign-in-alt"></i></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    @RenderBody()
+
+
+    <footer class="text-center text-lg-start mt-5">
+        <div class="text-center p-3 text-light">
+            © 2021 Copyright:
+            <a class="text-light" href="#"></a>
+        </div>
+    </footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,112 @@
+[
+  {
+    "id": 0,
+    "name": "",
+    "photoUrl": "",
+    "comments": [
+      ""
+    ],
+    "favoriFoods": [
+      ""
+    ],
+    "favoriLocations": [
+      ""
+    ]
+  },
+  {
+    "id": 1,
+    "name": "New York",
+    "photoUrl": "https://cdn.turkishairlines.com/m/157e27aba7dc4632/original/Travel-Guide-of-New-York-via-Turkish-Airlines.jpg",
+    "comments": [
+      "iyi be bura",
+      "harbi iyi",
+      "off bu ne be"
+    ],
+    "favoriFoods": [
+      ""
+    ],
+    "favoriLocations": [
+      ""
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Izmir",
+    "photoUrl": "https://cdn.turkishairlines.com/m/10a856c4ec2102c9/original/Travel-Guide-of-Izmir-via-Turkish-Airlines.jpg",
+    "comments": [
+      "cennet gibi",
+      "evet oyle"
+    ],
+    "favoriFoods": [
+      ""
+    ],
+    "favoriLocations": [
+      ""
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Istanbul",
+    "photoUrl": "https://cdn.turkishairlines.com/m/46da0371076f60e0/original/Travel-Guide-of-Istanbul-via-Turkish-Airlines.jpg",
+    "comments": [
+      "istanbul cok guzel ",
+      ""
+    ],
+    "favoriFoods": [
+      "Kumpir"
+    ],
+    "favoriLocations": [
+      "Kiz kulesi"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "London",
+    "photoUrl": "https://cdn.turkishairlines.com/m/107729e6ed3416/original/Travel-Guide-of-London-via-Turkish-Airlines.jpg",
+    "comments": [
+      "Londrada gece guzel",
+      "Londrada hayat guzel",
+      ""
+    ],
+    "favoriFoods": [
+      "hamburger",
+      "cips",
+      "kaktuss",
+      "selamm",
+      "be"
+    ],
+    "favoriLocations": [
+      "sahil",
+      "merkez camii"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Paris",
+    "photoUrl": "https://cdn.turkishairlines.com/m/536e8df8c381e006/original/Travel-Guide-of-Paris-via-Turkish-Airlines.jpg",
+    "comments": [
+      "\u0130yii"
+    ],
+    "favoriFoods": [
+      "Kebap",
+      "lahmacun"
+    ],
+    "favoriLocations": [
+      "Eyfel Kulesi"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Dubai",
+    "photoUrl": "https://cdn.turkishairlines.com/m/4ca50ae8620170ff/original/Travel-Guide-of-Dubai-via-Turkish-Airlines.jpg",
+    "comments": [
+      "Dubai iste"
+    ],
+    "favoriFoods": [
+      "beton"
+    ],
+    "favoriLocations": [
+      "bina"
+    ]
+  }
+]
